@@ -1,0 +1,15 @@
+// buttons.scss
+
+.btn {
+  background: $color-fondo-light;
+  color: $color-letra-light;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(146, 146, 146);
+}
+

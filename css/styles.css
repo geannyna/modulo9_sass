@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px; }
+
+.check {
+  width: 20px;
+  height: 20px; }
+
+html, body {
+  background-color: #e0e0e0;
+  color: #8100ac;
+  width: auto;
+  height: 100%;
+  }
+
+.title {
+  color: #8100ac; }
+
+.vehicle-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #8100ac;
+  padding: 20px;
+  border-radius: 10px; }
+
+.btn {
+  color: #8100ac;
+  background-color: #e0e0e0; }
+
+#coches-list {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #8100ac;
+  padding: 20px;
+  border-radius: 10px; }
+
+.btn {
+  background: #e0e0e0;
+  color: #8100ac;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.btn:hover {
+  background: #929292; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.vehicle-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; }
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold; }
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer; }
+
+.coches-lista {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #8100ac;
+  padding: 20px;
+  border-radius: 10px; }
+
+.header {
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center; }
+
+.title {
+  color: #8100ac; }
+
+.header {
+  background-color: #e0e0e0;
+  padding: 20px; }
+
+.home {
+  margin: 20px;
+  background-color: #e0e0e0; }
+
+.title {
+  font-size: 24px;
+  color: #8100ac; }
+
+.dark-theme .check {
+  width: 20px;
+  height: 20px; }
+
+.dark-theme html, .dark-theme body {
+  background-color: #191919;
+  color: #f1f1f1;
+  width: auto;
+  height: 100%; }
+
+.dark-theme .title {
+  color: #f1f1f1; }
+
+.dark-theme .vehicle-form {
+  background-color: rgba(132, 132, 132, 0.8);
+  color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px; }
+
+.dark-theme .btn {
+  color: #f1f1f1;
+  background-color: #191919; }
+
+.dark-theme #coches-list {
+  background-color: rgba(132, 132, 132, 0.8);
+  color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px; }
+
+.home-page {
+  display: flex;
+  flex-direction: column; }
+
+  .dark-theme {
+    background-color: rgb(25, 25, 25);
+    color: #f1f1f1;
+  }
+  
+  .default-theme {
+    background-color: #e0e0e0;
+    color: #8100ac;
+  }

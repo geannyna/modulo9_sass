@@ -1,0 +1,31 @@
+.dark-theme{
+  .check{
+    width:20px;
+    height:20px; 
+}
+body{
+  background-color: $color-fondo-dark;
+  color: $color-letra-dark;
+  width: auto;
+  height: 100%;
+}
+.title {
+  color: $color-letra-dark;
+}
+.vehicle-form{
+  background-color: $color-form-dark; 
+  color: $color-letra-dark;
+  padding: 20px;
+  border-radius: 10px;
+}
+  .btn{
+    color: $color-letra-dark;
+    background-color: $color-fondo-dark;
+  }
+  #coches-list {
+    background-color: $color-form-dark; 
+    color: $color-letra-dark;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,31 @@
+.default-theme{
+  .check{
+  width:20px;
+  height:20px; 
+  }
+  body{
+  background-color: $color-fondo-light;
+  color: $color-letra-light;
+  width: auto;
+  height: 100%;
+  }
+  .title {
+  color: $color-letra-light;
+  }
+  .vehicle-form{
+  background-color: $color-form-light; 
+  color: $color-letra-light;
+  padding: 20px;
+  border-radius: 10px;
+  }
+  .btn{
+  color: $color-letra-light;
+  background-color: $color-fondo-light;
+  }
+  #coches-list {
+  background-color: $color-form-light; 
+  color: $color-letra-light;
+  padding: 20px;
+  border-radius: 10px;
+  }
+}
